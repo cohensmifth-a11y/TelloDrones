@@ -44,7 +44,7 @@ recvThread.start()
 # CREATE FUNCTIONS HERE....
 
 
-print("\nKade Demaagd & Cohen Smith")
+print("\nKade Demaagd And Cohen Smith")
 print("Program Name: Hoop Competition ")
 print("Date: 4.20.2026 ")
 print("\n****CHECK YOUR TELLO WIFI ADDRESS****")
@@ -57,7 +57,8 @@ try:
         print("\nStarting Drone!\n")
 
         sendmsg('command', 0)
-        sendmsg('takeoff')  
+        sendmsg('takeoff', 5)  
+
 
         # Commit Message: First Hoop - Stable
         # Don't Forget to take video of this portion of the comp
@@ -65,7 +66,9 @@ try:
         # Comit Message: First Hoop Video in Repository
         # Write code below
 
-
+        sendmsg('up 20')
+        sendmsg('forward 260')
+    
 
 
 
