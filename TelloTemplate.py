@@ -66,9 +66,9 @@ try:
         # Comit Message: First Hoop Video in Repository
         # Write code below
 
-        sendmsg('up 20')
-        sendmsg('forward 260')
-    
+        sendmsg('up 20',8)
+        sendmsg('forward 260', 7)
+        sendmsg('battery?')
 
 
 
@@ -78,6 +78,10 @@ try:
         # Make sure I put the video in out Repository
         # Comit Message: Second Hoop Video in Repository
         # Write code below
+
+        sendmsg('go 330 10 50 50')
+
+
 
 
 
