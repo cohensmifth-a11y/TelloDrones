@@ -96,7 +96,7 @@ try:
 
         sendmsg('stop', 8)
         sendmsg('curve 140 130 0 0 260 0 40')
-        sendmsg('curve -140 -130 0 0 -260 0 40')
+        sendmsg('curve -140 -130 0 0 -200 0 40')
 
 
         # Commit Message: Fourth Hoop - Stable
