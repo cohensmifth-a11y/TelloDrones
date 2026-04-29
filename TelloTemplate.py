@@ -66,9 +66,9 @@ try:
         # Comit Message: First Hoop Video in Repository
         # Write code below
 
-        sendmsg('up 20',8)
-        sendmsg('forward 260', 7)
-        sendmsg('battery?')
+        #sendmsg('up 20',8)
+       # sendmsg('forward 260', 7)
+        #sendmsg('battery?')
 
 
 
@@ -79,7 +79,7 @@ try:
         # Comit Message: Second Hoop Video in Repository
         # Write code below
 
-        sendmsg('go 330 10 50 50')
+       # sendmsg('go 350 10 40 50', 8)
 
 
 
@@ -94,8 +94,9 @@ try:
         # Comit Message: Third Hoop Video in Repository
         # Write code below
 
-
-
+        sendmsg('stop', 8)
+        sendmsg('curve 140 130 0 0 260 0 40')
+        sendmsg('curve -140 -130 0 0 -200 0 40')
 
 
         # Commit Message: Fourth Hoop - Stable
